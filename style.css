@@ -8,27 +8,27 @@ html{
 }
 @keyframes translateYq {
     0%{
-        transform:translateY(10vh);
+        transform:translateY(40vh);
     }
     100%{
-        transform:translateY(-10vh);
+        transform:translateY(-40vh);
     }
 }
 @keyframes translateY {
     0%{
-        transform: translateY(60%);
+        transform: translateY(190%);
     }
     /* 50%{
         transform:translateY(1vh);
     } */
     100%{
-        transform:translateY(-10%);
+        transform:translateY(-50%);
     }
 }
 @keyframes fadein{
     0%{
         opacity:0;
-        transform: scale(0.92);
+        transform: scale(0.8);
     }
     100%{
         opacity:1;
@@ -103,10 +103,10 @@ html{
     gap:0.1vw;
     transition: all 0.3s ease-in;
     padding-right: 0.7vw;
-    background:linear-gradient(to right,white 0.1%, black 30%,white);
+    /* background:; */
     background-clip: text;
     -webkit-background-clip: text;
-    color:transparent;
+    color:black;
 }
 #nav_right a span{
     background-color: white;
@@ -173,7 +173,7 @@ html{
 }
 #name, #intro{
     font-size: 12vh;
-    background-image: linear-gradient(45deg,white, black, white);
+    background-image: linear-gradient(45deg,white 1%, black 20%, white);
     background-clip: text;
     -webkit-background-clip: text;
     color:transparent;
@@ -326,7 +326,7 @@ html{
     display:flex;
     align-items: center;
     gap:1vw;
-    background: radial-gradient(circle, white, rgba(0, 0, 0, 0.145), white 60%);
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.105), white 60%);
  }
  #img3-4{
     display:flex;
@@ -351,7 +351,7 @@ html{
 .images_page2{
     display:flex;
     gap: 2vw;
-    background: radial-gradient(circle, white, rgba(0, 0, 0, 0.250) 20%, white 40%);
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.100) 8%, white 40%);
     align-items: center;
  }
  #img5 img{
